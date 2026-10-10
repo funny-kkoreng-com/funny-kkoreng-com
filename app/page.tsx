@@ -1,8 +1,11 @@
+import Image from "next/image";
 import { PROJECTS } from "../projects";
+import logo from "./icon.png";
 
 export default function Home() {
   return (
     <main>
+      <Image className="logo" src={logo} alt="" width={120} priority />
       <h1>
         funny<span>.</span>kkoreng
       </h1>
