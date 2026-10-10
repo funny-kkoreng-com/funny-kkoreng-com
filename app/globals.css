@@ -45,19 +45,13 @@ main {
 }
 
 h1 {
-  margin: 0;
+  margin: 0 0 40px;
   font-size: clamp(32px, 7vw, 52px);
   letter-spacing: -0.03em;
 }
 
 h1 span {
   color: var(--accent);
-}
-
-.lead {
-  margin: 8px 0 40px;
-  color: var(--muted);
-  font-size: 17px;
 }
 
 .grid {
@@ -106,10 +100,4 @@ h1 span {
   font-family: ui-monospace, Menlo, monospace;
   font-size: 12px;
   color: var(--accent);
-}
-
-footer {
-  margin-top: 56px;
-  color: var(--muted);
-  font-size: 13px;
 }
