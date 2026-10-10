@@ -16,4 +16,11 @@ export const PROJECTS: Project[] = [
     title: "대머리 광택 시뮬레이터",
     desc: "카메라 속 아저씨 머리를 손으로 문지르면 점점 반짝반짝. 너무 문지르면 태양이 됩니다.",
   },
+  {
+    path: "/magic-hand-simulator",
+    origin: "https://magic-hand-simulator.vercel.app",
+    emoji: "🪄",
+    title: "매직 핸드 시뮬레이터",
+    desc: "웹캠 앞에서 손동작을 하면 손동작마다 다른 마법이 펑펑. 두 손으로 인을 맺으면 궁극기까지!",
+  },
 ];
